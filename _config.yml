@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Ariadna Kim Silva"
   # avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Recent grad and data enthusiast. I have a BS in Biology with a concentration in neuroscience and an MS in Biomedical Informatics."
+  bio    : "Recent MS grad and data enthusiast."
   links:
     - label: "LinkedIn"
       icon: "fas fa-fw fa-linkedin"
