@@ -63,7 +63,7 @@ author:
   bio    : "Recent MS grad and data enthusiast."
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ariadna-k-2047832a9/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
