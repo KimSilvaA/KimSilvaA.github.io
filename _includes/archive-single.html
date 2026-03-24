@@ -1,1 +1,30 @@
 {% assign card_url = post.external_url | default: post.post_url | default: post.url %}
+
+{% assign is_external = false %}
+{% if card_url contains '://' %}
+  {% assign is_external = true %}
+{% endif %}
+
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  {% if post.header.teaser %}
+    <div class="archive__item-teaser">
+      <a href="{% if is_external %}{{ card_url }}{% else %}{{ card_url | relative_url }}{% endif %}"
+         {% if is_external %}target="_blank" rel="noopener"{% endif %}>
+        <img src="{{ post.header.teaser | relative_url }}" alt="">
+      </a>
+    </div>
+  {% endif %}
+
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="{% if is_external %}{{ card_url }}{% else %}{{ card_url | relative_url }}{% endif %}"
+       {% if is_external %}target="_blank" rel="noopener"{% endif %}>
+      {{ post.title }}
+    </a>
+  </h2>
+
+  {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">
+      {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+    </p>
+  {% endif %}
+</article>
