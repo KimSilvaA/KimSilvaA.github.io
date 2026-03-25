@@ -9,7 +9,7 @@ header:
 
 
 <style>
-table { border-collapse: collapse; width: 100%; }
+table { border-collapse: collapse; width: 50%; }
 th, td { border: 1px solid #ccc; padding: 0.5rem; }
 </style>
 
