@@ -13,5 +13,7 @@ Inserting placeholder here
 | :--- | :--- | :--- |
 {% for feature in site.data.features %}
 
-| {{ feature.Feature }} | {{ member.Category }} | {{ member.Description }} |
+| {{ feature.Feature }} | {{ feature.Category }} | {{ feature.Description }} |
 {% endfor %}
+
+placing another placeholder 
