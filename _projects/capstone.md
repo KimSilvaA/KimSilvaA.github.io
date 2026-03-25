@@ -7,3 +7,11 @@ header:
 ---
 ## Overview
 Inserting placeholder here 
+
+
+| Feature | Category | Description |
+| :--- | :--- | :--- |
+{% for feature in site.data.features %}
+
+| {{ feature.Feature }} | {{ member.Category }} | {{ member.Description }} |
+{% endfor %}
