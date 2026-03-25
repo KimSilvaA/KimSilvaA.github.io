@@ -1,0 +1,64 @@
+- Feature: Sex
+  Category: Demographic
+  Description: Participant's Sex
+- Feature: Race
+  Category: Demographic
+  Description: Participant's Race
+- Feature: Ethnicity
+  Category: Demographic
+  Description: Participant's Ethnicity
+- Feature: Depression
+  Category: Clinical
+  Description: Has Depression
+- Feature: Abnormal Cholesterol
+  Category: Clinical
+  Description: Has abnormal cholesterol levels
+- Feature: Hypertension
+  Category: Clinical
+  Description: Has hypertension 
+- Feature: Fusiform
+  Category: Biomarker
+  Description: Fusiform gyrus volume 
+- Feature: Hippocampus
+  Category: Biomarker
+  Description: Hippocampal volume
+- Feature: BMI
+  Category: Biomarker
+  Description: Body Mass Index
+- Feature: Ravlt Percent Forgetting
+  Category: Neuropsychological Assessments
+  Description: Indicator of memory dysfunction
+- Feature: Education_level
+  Category: Neuropsychological Assessments
+  Description: Years of education 
+- Feature: ADAS13
+  Category: Neuropsychological Assessments
+  Description: 13-item Alzheimer's Disease Assessment Scale
+- Feature: FAQ
+  Category: Neuropsychological Assessments
+  Description: Functional Assessment Questionnaire
+- Feature: Ravlt Immediate
+  Category: Neuropsychological Assessments
+  Description: Assesses immediate memory 
+- Feature: Ravlt Learning
+  Category: Neuropsychological Assessments
+  Description: Assesses verbal learning
+- Feature: Age
+  Category: Demographic
+  Description: Participant's age
+- Feature: Entorhinal
+  Category: Biomarker
+  Description: Entorhinal volume
+- Feature: Midtemp
+  Category: Biomarker
+  Description: Midtemporal gyrus volume
+- Feature: APOE4 copy number
+  Category: Biomarker
+  Description: Number of APOE4 copies
+- Feature: ADAS11
+  Category: Neuropsychological Assessments
+  Description: 11-item Alzheimer's Disease Assessment Scale
+- Feature: ADASQ4
+  Category: Neuropsychological Assessments
+  Description: Task 4 of the Alzheimer's Disease Assessment Scale
+
