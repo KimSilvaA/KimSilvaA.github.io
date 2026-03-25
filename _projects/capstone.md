@@ -9,8 +9,18 @@ header:
 
 
 <style>
-table { border-collapse: collapse; width: 50%; }
-th, td { border: 1px solid #ccc; padding: 0.5rem; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  font-size: 0.9rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.2rem 0.4rem;
+  line-height: 1.2;
+}
 </style>
 
 <table>
