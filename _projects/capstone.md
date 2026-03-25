@@ -8,12 +8,21 @@ header:
 ## Overview
 Inserting placeholder here 
 
-
-| Feature | Category | Description |
-| :--- | :--- | :--- |
-{% for feature in site.data.features %}
-
-| {{ feature.Feature }} | {{ feature.Category }} | {{ feature.Description }} |
-{% endfor %}
-
-placing another placeholder 
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Category</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for feature in site.data.features %}
+    <tr>
+      <td>{{ feature.Feature }}</td>
+      <td>{{ feature.Category }}</td>
+      <td>{{ feature.Description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
