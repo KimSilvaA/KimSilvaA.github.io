@@ -1,2 +1,2 @@
 # Data Science Portfolio 
-Work in progress. Check back later! 
+Portfolio is now live! 🙌 
