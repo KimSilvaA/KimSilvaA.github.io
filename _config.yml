@@ -111,6 +111,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
 
 # category_archive:
 #   type: liquid
