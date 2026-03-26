@@ -21,7 +21,7 @@ For my project, I used the Alzheimer's Disease Neuroimaging Initiative (ADNI), a
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 40%;
+  width: 80%;
   font-size: 0.9rem;
 }
 
