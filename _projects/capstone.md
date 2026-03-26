@@ -83,7 +83,7 @@ Predicting AD progression was much more difficult. Notice that the performance w
 ## After Thoughts
 <p> This was the first time that I thoroughly worked on a real-world dataset. Here, I defined cohorts, created variables and applied and evaluated ML models for classification tasks. I spent most of my time reading on ADNI, the changes it had undergone for each phase and how the data was obtained and standardized. </p>
 
-<p> While I didn't discover anything groundbreaking, I'm happy to report that my results were comparable to those found in the literature 🥳. Honestly, I wish I had done more given the rich data, but I had less than a semester and overall I'm pretty satisfied on how things went. I also enjoyed learning more about Alzheimer's (putting that neuroscience major to good use) and that research is being actively done. </p>
+<p> While I didn't discover anything groundbreaking, I'm happy to report that my results were comparable to those found in the literature 🥳. Honestly, I wish I had done more given the rich data, but I had less than a semester and overall I'm pretty satisfied on how things went. I also enjoyed learning more about Alzheimer's (putting that neuroscience major to good use). </p>
 
 <p> One last thing, I will not share my code as it contains private data and I used Jupyter Notebooks which shows snippets of the raw data (main reason why I decided on this write-up). </p>
 
