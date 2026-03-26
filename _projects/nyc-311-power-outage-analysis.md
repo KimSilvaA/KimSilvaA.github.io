@@ -1,6 +1,6 @@
 ---
-title: "Predictive Modeling of Alzheimer’s Outcomes"
-excerpt: "My MS Capstone Project"
+title: "NYC 311 Power Outage Analysis"
+excerpt: "A data-driven look at NYC power outage reports—trends over time, neighborhood hotspots, and key insights.""
 
 header:
   teaser: /assets/images/Screenshot.png
