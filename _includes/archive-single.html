@@ -1,4 +1,4 @@
-<!-- {% assign card_url = post.external_url | default: post.post_url | default: post.url %}
+{% assign card_url = post.external_url | default: post.post_url | default: post.url %}
 
 {% assign is_external = false %}
 {% if card_url contains '://' %}
@@ -27,4 +27,4 @@
       {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
     </p>
   {% endif %}
-</article> -->
+</article>
