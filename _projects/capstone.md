@@ -5,7 +5,6 @@ excerpt: "My MS Capstone Project"
 header:
   teaser: /assets/images/brain.png
 ---
-# Predictive Modeling of Alzheimer's Outcomes Using Multimodal Data
 <i> Could we identify individuals at risk of developing Alzheimer’s? </i>
 
 When deciding on a project proposal, I was looking at datasets relating to the brain and found one on Alzheimer's. Because Alzheimer's Disease remains a significant challenge in the modern age, the choice was obvious. 
