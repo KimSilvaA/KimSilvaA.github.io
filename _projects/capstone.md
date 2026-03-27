@@ -13,7 +13,7 @@ When deciding on a project proposal, I was looking at datasets relating to the b
 Alzheimer's Disease (AD) is a neurodegenerative disorder characterized by significant cognitive decline. It is the most common form of dementia, accounting for more than 70% of all cases worldwide, and the number of cases is expected to rise in the near future. Before developing AD, individuals first undergo mild cognitive impairment (MCI), a condition where cognitive issues emerge but are not severe enough to disrupt daily life. Not everyone with MCI will progress to AD, but currently it is difficult to identify the individuals that will. Additionally, treatment options are available for early-to-mid stage AD yet over half of people are diagnosed at a more advanced stage. Thus, I aimed to classify MCI patients from AD patients and predict who will progress to AD at 1yr, 3yr and 5y intervals. 
 
 ## Dataset Overview
-For my project, I used the Alzheimer's Disease Neuroimaging Initiative (ADNI), a comprehensive longitudinal study that contains clinical, imaging, demographic, and biomarker information. The features I selected are all relevant to AD and are shown below. 
+For my project, I used the Alzheimer's Disease Neuroimaging Initiative (ADNI), a comprehensive longitudinal study that contains clinical, imaging, demographic, and biomarker information. Below are the features that I selected which are all relevant to AD. 
 
 
 <style>
@@ -79,12 +79,29 @@ Predicting AD progression was much more difficult. Notice that the performance w
 
 ![Prediction results](/assets/images/prediction_results.png)
 
+## Conclusions
+This project explored AD conversion using baseline classification and predictive modeling. Baseline classification highlighted differences between the MCI and AD subgroups and predictive modeling suggested which features might help identify high-risk MCI participants. Brain volume and measurements and especially neuropsychological assessments taken at baseline were found to have contributed the most to the model's performance. 
+
+
 ## After Thoughts
-<p> This was the first time that I thoroughly worked on a real-world dataset. Here, I defined cohorts, created variables and applied and evaluated ML models for classification tasks. I spent most of my time reading on ADNI, the changes it had undergone for each phase and how the data was obtained and standardized. </p>
+<p> This was the first time that I worked on a real-world clinical dataset. Here, I defined cohorts, created variables and applied and evaluated ML models for classification tasks. I spent most of my time reading on ADNI, the changes it had undergone for each phase and how the data was obtained and standardized. </p>
 
 <p> While I didn't discover anything groundbreaking, I'm happy to report that my results were comparable to those found in the literature 🥳. Honestly, I wish I had done more given the rich data, but I had less than a semester and overall I'm pretty satisfied on how things went. I also enjoyed learning more about Alzheimer's (putting that neuroscience major to good use). </p>
 
 <p> One last thing, I will not share my code as it contains private data and I used Jupyter Notebooks which shows snippets of the raw data (main reason why I decided on this write-up). </p>
 
+## References
+[1] World Health Organization. (n.d.). Dementia. World Health Organization.
+https://www.who.int/news-room/fact-sheets/detail/dementia
+[2] Centers for Disease Control and Prevention. (n.d.). About dementia. Centers for Disease Control and Prevention.
+https://www.cdc.gov/alzheimers-dementia/about/index.html
+[3] Alzheimer’s Association. (2025). 2025 Alzheimer’s disease facts and figures. Alzheimer’s & Dementia, 21(5)
+https://www.alz.org/getmedia/ef8f48f9-ad36-48ea-87f9-b74034635c1e/alzheimers-facts-and-figures.pdf
+[4] Ward, A., Tardiff, S., Dye, C., & Arrighi, H. M. (2013). Rate of conversion from prodromal Alzheimer's disease to Alzheimer's
+dementia: a systematic review of the literature. Dementia and geriatric cognitive disorders extra, 3(1), 320-332.
+[5] Serrano-Pozo, A., Frosch, M. P., Masliah, E., & Hyman, B. T. (2011). Neuropathological alterations in Alzheimer disease. Cold
+Spring Harbor perspectives in medicine, 1(1), a006189.
+[6] DeTure, M. A., & Dickson, D. W. (2019). The neuropathological diagnosis of Alzheimer’s disease. Molecular neurodegeneration,
+14(1), 32.
 
 
