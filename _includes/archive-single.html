@@ -1,3 +1,4 @@
+{% assign card_url = post.repo_url | default: post.external_url | default: post.post_url | default: post.url %}
 {% assign card_url = post.external_url | default: post.post_url | default: post.url %}
 
 {% assign is_external = false %}
