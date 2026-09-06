@@ -1,6 +1,6 @@
 ---
 title: "Predictive Modeling of Alzheimer’s Outcomes"
-excerpt: "My MS Capstone Project"
+excerpt: "A write-up of my MS Capstone Project"
 
 header:
   teaser: /assets/images/brain.png
@@ -86,22 +86,22 @@ This project explored AD conversion using baseline classification and predictive
 ## After Thoughts
 <p> This was the first time that I worked on a real-world clinical dataset. Here, I defined cohorts, created variables and applied and evaluated ML models for classification tasks. I spent most of my time reading on ADNI, the changes it had undergone for each phase and how the data was obtained and standardized. </p>
 
-<p> While I didn't discover anything groundbreaking, I'm happy to report that my results were comparable to those found in the literature 🥳. Honestly, I wish I had done more given the rich data, but I had less than a semester and overall I'm pretty satisfied on how things went. I also enjoyed learning more about Alzheimer's (putting that neuroscience major to good use). </p>
+<p> While I didn't discover anything groundbreaking, I'm happy to report that my results were comparable to those found in the literature 🥳. </p>
 
-<p> One last thing, I will not share my code as it contains private data and I used Jupyter Notebooks which shows snippets of the raw data (main reason why I decided on this write-up). </p>
+<p> One last thing, I will not share my code as it contains private data. </p>
 
 ## References
-[1] World Health Organization. (n.d.). Dementia. World Health Organization.
-https://www.who.int/news-room/fact-sheets/detail/dementia
+[1] World Health Organization. (n.d.). Dementia. World Health Organization. 
+https://www.who.int/news-room/fact-sheets/detail/dementia <br>
 [2] Centers for Disease Control and Prevention. (n.d.). About dementia. Centers for Disease Control and Prevention.
-https://www.cdc.gov/alzheimers-dementia/about/index.html
-[3] Alzheimer’s Association. (2025). 2025 Alzheimer’s disease facts and figures. Alzheimer’s & Dementia, 21(5)
-https://www.alz.org/getmedia/ef8f48f9-ad36-48ea-87f9-b74034635c1e/alzheimers-facts-and-figures.pdf
+https://www.cdc.gov/alzheimers-dementia/about/index.html <br>
+[3] Alzheimer’s Association. (2025). 2025 Alzheimer’s disease facts and figures. Alzheimer’s & Dementia, 21(5) 
+https://www.alz.org/getmedia/ef8f48f9-ad36-48ea-87f9-b74034635c1e/alzheimers-facts-and-figures.pdf <br>
 [4] Ward, A., Tardiff, S., Dye, C., & Arrighi, H. M. (2013). Rate of conversion from prodromal Alzheimer's disease to Alzheimer's
-dementia: a systematic review of the literature. Dementia and geriatric cognitive disorders extra, 3(1), 320-332.
+dementia: a systematic review of the literature. Dementia and geriatric cognitive disorders extra, 3(1), 320-332. <br>
 [5] Serrano-Pozo, A., Frosch, M. P., Masliah, E., & Hyman, B. T. (2011). Neuropathological alterations in Alzheimer disease. Cold
-Spring Harbor perspectives in medicine, 1(1), a006189.
+Spring Harbor perspectives in medicine, 1(1), a006189. <br>
 [6] DeTure, M. A., & Dickson, D. W. (2019). The neuropathological diagnosis of Alzheimer’s disease. Molecular neurodegeneration,
-14(1), 32.
+14(1), 32. <br>
 
 
